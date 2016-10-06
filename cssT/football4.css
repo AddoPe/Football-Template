@@ -1,0 +1,653 @@
+/* Fonts */
+
+/*@import url("fonts.css");*/
+
+/* Fonts End */
+
+body { 
+	font-family:'PTSansWebRegular', sans-serif;
+}
+
+.navbar{height: 3rem;}
+.imgstemma {height:2rem;float:left;}
+
+.navbar-brand{margin-left: 0.5rem; }
+
+.navbar-nav{
+    float:right;
+    display: table;
+    table-layout: fixed;
+    float:right;
+    height: 100%;
+}
+
+#headImage { display: block;overflow: hidden; width: 100%; }
+#headImage img { width: 100%; }
+
+.caption { 	position: absolute; left: 0; top:3rem; 	width: 100%;
+	display:table; 	padding: 0; margin: 0;	 }
+
+#cellTitle { display: table-cell; vertical-align: middle;}
+ 
+ #cellTitle h1 { font-family:'Exo-ExtraBold', sans-serif;   font-style: bold;
+	  background-color: rgba(22, 6, 58, 0.75); 	  line-height: 2;
+	  margin-bottom: 0; }
+
+#exCollapsingNavbar2>a,#exCollapsingNavbar2>ul>li>a  {	
+	font-family:'Exo-Bold', sans-serif;  }
+
+/*carousel*/
+
+.carousel-inner{width: 83.333333%; }
+.carousel-item img{margin: 1rem auto 1rem auto;}
+#sideSlide1 img,#sideSlide2 img{vertical-align: middle;}
+
+#players{padding:1rem 0 1rem 0;
+	text-align:center;}
+#players h1 { font-family:'Exo-Bold', sans-serif;
+    white-space:nowrap;    overflow:hidden; }
+.carousel-control.left,.carousel-control.right{
+	background-image:none !important;
+}
+.carousel-item>.row>.col-md-3 { text-align: center; }
+.carousel-control { color:#fff;
+	top:40%; color:#428BCA;
+	width:1rem;
+	height:1rem;
+	text-shadow:none;
+	opacity:1;
+}
+.carousel-control:hover { color: #d9534f; }
+
+.carousel-control.right {
+	left:auto;
+	right:0rem;
+	z-index: 100;
+	margin-right: 1px;
+}
+.carousel-control.left {
+	left:0rem;
+	right:auto;
+	z-index: 100;
+	margin-left:1px;
+}
+
+.carousel-indicators {
+	/*position:relative;*/
+	bottom:-1.5rem;
+	line-height: 1rem;
+	left:0;
+	margin-left: 20%;
+}
+.carousel-indicators li {
+	border-radius:0;
+	width:0.5rem;
+	height:0.5rem;
+	background:#ccc;
+	border:1px solid #ccc;
+}
+.carousel-indicators .active {
+	width:0.7rem;
+	height:0.7rem;
+	background:#3276b1;
+	border-color:#3276b1;
+}
+
+.modal-body {text-align:center;}
+
+
+/*social*/
+#social{padding:0.5rem 0 0 0; 
+	text-align:center;
+}
+
+section#social .socialIcon,#MemberShip .planIconA,#MemberShip .planIconB,#MemberShip .planIconC {
+	width:6rem;
+	height:6rem;
+	border-radius: 50%;
+	margin:0 auto;
+	line-height: 6rem;
+	font-size: 2em;
+}
+
+.separador {
+	width: 3rem;
+	height:0.3rem;
+	display: block;
+	margin:0 auto;	
+	margin-bottom: 0.5rem;
+}
+
+section#social  h2{ font-family:'PTSansWebBold', sans-serif; 
+margin-top: 0.1rem; margin-bottom: 0.1rem;}
+
+/*Championship*/
+#tabTablesContainer,#tabInfoContainer{padding: 1rem 0 1rem 0; }
+#expandTable button,#expandInfo button{font-family:'Exo-Bold', sans-serif;
+	width:100%; margin:1rem 0 1rem; height:8rem;border-color:black;}
+#expandTable,#expandInfo {padding: 1rem 0 1rem 0; }
+
+#championshipTab,#leagueTab{padding: 0.1rem 0.1rem 0.1rem 0.1rem;}
+#championshipTab table,#leagueTab table{margin-bottom: 0;}
+
+#championshipTab table th,#championshipTab table td,
+#leagueTab table th,#leagueTab table td {height:2rem;padding-top:0.5rem; }
+#championshipTab td img,#leagueTab td img {height:1rem;}
+
+/*#tabTablesContainer .panel-group {background-color: red;border:0.1rem solid blue;}*/
+#championshipTab-collapse td img, #leagueTab-collapse td img {height:1rem;}
+#championshipTab-collapse,#leagueTab-collapse{padding:0.1rem 0.1rem 0.1rem 0.1rem;}
+.panel-title {margin-left: 1rem;}
+
+/*parallax*/
+
+/*.parallax-div {
+    height: 500px;
+    background: url("http://res.cloudinary.com/tempest/image/upload/c_limit,cs_srgb,dpr_1.0,q_80,w_10000/MTMwOTgxMTI5NDk3OTA5NzI2.jpg");
+    background-size: cover;
+    background-attachement: fixed;
+}
+
+.parallax-text {
+    overflow: hidden;
+    background: #fff;
+    color: #3a3a3a;
+    font-size: 86px;
+    line-height: 86px;
+    font-weight: 700;
+    text-transform: uppercase;
+    mix-blend-mode: lighten;
+    margin-top: 50px;
+    height: 500px;
+}*/
+
+h2.parallax,#society>h1,#playerspics h1 {
+	font-family:'Exo-ExtraBold', sans-serif;	
+	text-transform: none;	
+	text-shadow: 0px 1rem 1.1rem black;
+	-webkit-text-shadow: 0px 1rem 1.1rem black;
+	-moz-text-shadow: 0px 7px 8px black;
+}
+
+
+#society h2,#society p  { font-family:'PTSansWebBold', sans-serif;}
+
+section#parallax {
+	background-image: url(../imgT/stadium.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*society*/
+#society.container-fluid{padding:1rem 0 0rem 0;}
+#cBuilding{ margin: 0.5rem auto 0.5rem auto;width:80%;height:auto; border: 0.1rem solid;  }
+
+.icono {
+	width:100%;
+	height:auto;
+	text-align: center;
+}
+
+.icono img {
+	width:80%;
+	margin:5% auto 5% auto;
+	max-width: 5rem;
+}
+
+.anima1,.anima2 {opacity: 0;}
+
+/* End Society*/
+
+
+/*Clubs*/
+
+#Clubs {padding-top: 1rem;}
+#Clubs .masonry-container {padding:0 0 0 0;}
+
+#Clubs .profile-card,#Clubs-collapse .profile-card{
+  margin-bottom: 1rem;
+  padding: 1rem 1rem 0 1rem;}
+        
+#Clubs .profile-pic,#Clubs-collapse .profile-pic {
+  border-radius: 50%;  
+  display: block;
+  margin: auto;
+  z-index: 1;
+  width: 5rem;
+  height: 5rem;   	
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s; }
+
+                
+#Clubs .profile-info,#Clubs-collapse .profile-info{        
+        position: relative;
+        margin-top: 15px; }
+        
+/*#Clubs .profile-info h2 {    
+    letter-spacing: 4px;
+      padding-bottom: 12px; }
+*/                
+
+#Clubs .profile-info span,#Clubs-collapse .profile-info span {
+    display: block;
+    font-size: 12px;    
+    letter-spacing: 2px;  }
+
+#Clubs .profile-info i,#Clubs-collapse .profile-info i{ padding: 15px 35px 0px 35px; }
+        
+
+#Clubs .profile-card:hover .profile-pic,#Clubs-collapse .profile-card:hover .profile-pic{   
+    transform: scale(1.1);     }
+
+/* Underline From Center */
+#Clubs .hvr-underline-from-center,#Clubs-collapse .hvr-underline-from-center{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+#Clubs .hvr-underline-from-center:before,#Clubs-collapse .hvr-underline-from-center:before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 52%;
+  right: 52%;
+  bottom: 0;
+  background: #FFFFFF;
+  border-radius: 50%;
+  height: 3px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+#Clubs .profile-card:hover .hvr-underline-from-center:before, 
+#Clubs .profile-card:focus .hvr-underline-from-center:before, 
+#Clubs .profile-card:active .hvr-underline-from-center:before,
+#Clubs-collapse .profile-card:hover .hvr-underline-from-center:before, 
+#Clubs-collapse .profile-card:focus .hvr-underline-from-center:before, 
+#Clubs-collapse .profile-card:active .hvr-underline-from-center:before  {
+  left: 0;
+  right: 0;
+  height: 1px;
+}
+
+/*End Clubs*/
+
+/* Member cards*/
+
+	#MemberShip .planIconA,#MemberShip .planIconB,#MemberShip .planIconC {margin-top: -20%;}
+	.pricing-table-holder h3 {margin-top: 1rem;}
+
+    .well{ box-shadow: 0 0 0 0;
+        border: 0px;   }
+
+    .jumbotron{ 	margin-bottom: 0;    }
+        
+    .well.pricing-table{  transition:all 0.6s ease-out;   }
+
+	.well.pricing-table:hover{ cursor:pointer;	}
+
+	.pricing-feature-list{
+		padding: 10%;	}
+
+	.pricing-feature-list .list-group-item {
+		position: relative;
+		display: block;
+		padding: 13px 15px;
+		margin-bottom: -1px;
+		font-size: 15px;
+		border-bottom: 1px solid #595353;
+	}
+
+    .pricing-table>.pricing-table-holder{
+        padding: 6%;     }
+    .btn-info{
+		border-color: #F95353;
+		padding: 3%;
+		transition: all 0.6s ease-in;
+    }
+
+    .custom-button-group{
+		height: 2rem;
+		padding: 0%;
+	}
+	.custom-button-group p{line-height: 2rem;}
+
+	.btn-royal-blue{
+		transition: all 0.4s ease-in;
+	}
+
+	.btn-royal-blue:hover{
+		color: #eee;
+		transition: all 0.5s ease-in;
+	}
+
+/* Ends Member cards*/
+
+/*Modal Menmebers*/
+
+.card-block .row {padding-bottom: 10px;}
+
+
+/*vidgallery*/
+
+.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border: solid 0.2rem blue;	  
+}
+
+#vidgallery h1,#formContact h1 {
+	font-family:'Exo-ExtraBold', sans-serif;	
+	text-transform: none;	
+	text-shadow: 0px 1rem 1.1rem black;
+	-webkit-text-shadow: 0px 1rem 1.1rem black;
+	-moz-text-shadow: 0px 7px 8px black;
+}
+
+/*vidgallery end*/
+
+/*formContact*/
+
+#formContact button {width: 100%;}
+#formContact {padding:1rem 0 3rem 0; }
+
+
+/*footer */
+/*footer {padding:1rem 0 0 0; }*/
+/*footer {margin-top: 0rem; }*/
+
+.clear{clear:both;}
+.footer-grids{padding-top: 1rem; padding-bottom: 1rem;} 
+p.footer-gd { margin: 1rem 1rem 0 0;}
+footer .copy-right ul{ margin-top: 0.5rem;}
+
+
+p.footer-gd a { 	/*color:#fff;*/ }
+p.footer-gd a:hover { 	/*color: #2e99ff;*/ }
+.footer h3 {
+
+    /*font-size: 18px;*/
+    /*color: #fff;*/
+    /*font-weight: 500;*/
+    /*margin-bottom: 32px;*/
+    /*font-family: 'Viga', sans-serif;*/
+
+}
+
+.footer.three ul li span { display: block; }
+
+.copy-left{	float:left; }
+.copy-right{ float:right; }
+.copy-right ul li { 
+    list-style-type: none;
+    display: inline-block;    
+    border-left: 1px solid #444343;
+    padding: 0 12px;
+}
+
+.copy-right ul li:nth-child(1) { border: none; }
+.footer ul { list-style-type: none;padding: 0;margin: 0;}
+.footer ul i { margin-right: 1rem;}
+
+
+
+footer .fa {
+	width:1rem;
+	height:1rem;
+	/*border-radius: 50%;*/
+	margin:0 auto;
+	line-height: 1rem;
+	font-size: 1rem;
+	/*background-color: red;*/
+}
+
+
+
+
+/*color------------------------------*/
+
+/* ------------- Main Primary color 1 */
+/*.color-primary-0 { color: #AA6239 }	*/
+.well.pricing-table {border:0.3rem solid #AA6239;}
+#Clubs .profile-card,#Clubs-collapse .profile-card{border:0.3rem solid #AA6239;}
+
+/*.color-primary-1 { color: #FFC9AA }*/
+
+
+/*.color-primary-2 { color: #D4916A }*/
+ .buttonConfirm .btn-info {background-color:#D4916A}
+  #contactMem .card-footer input,#contactMem .card-footer button {background-color:#D4916A} 
+  footer .fa,footer h3 { color: #D4916A; }
+
+/*.color-primary-3 { color: #803C15 }*/
+.custom-button-group {background-color:#803C15}
+@media screen and (max-width: 544px) {  
+	.collapsing ul li a:hover, .in ul li a:hover {color: #803C15!important;}
+}
+#contactMem .card-footer input,#contactMem .card-footer button{border:0.1rem solid #803C15;}
+
+
+
+#Clubs .profile-card:hover .hvr-underline-from-center:before, 
+#Clubs .profile-card:focus .hvr-underline-from-center:before, 
+#Clubs .profile-card:active .hvr-underline-from-center:before,
+#Clubs-collapse .profile-card:hover .hvr-underline-from-center:before, 
+#Clubs-collapse .profile-card:focus .hvr-underline-from-center:before, 
+#Clubs-collapse .profile-card:active .hvr-underline-from-center:before {
+background-color: #803C15 }
+
+
+/*.color-primary-4 { color: #551F00 } */
+#championshipTab table td,#leagueTab table td {border:0.1rem solid #551F00; }
+#championshipTab table th,#leagueTab table th,
+#championshipTab table,#leagueTab table {border-width:0.2rem;  
+	border-style: solid;border-color: #551F00;}
+#championshipTab table td,#leagueTab table td{ color:#551F00;}
+#parallax {border:0.1rem solid #551F00;}
+
+/* ------------- Main Secondary color 2 */
+/*.color-secondary-1-0 { color: #9EA738 }	*/
+#building>p,#leftMembers h2,#leftMembers p,#rightMembers p,#rightMembers h2 {color:#9EA738;}
+.copy-right-grids { background: #9EA738;}
+footer {border-top: solid 0.5rem #9EA738;} 
+
+/*.color-secondary-1-1 { color: #F4FBA7 }*/
+.color-secondary-1-1 { color: #F4FBA7 }
+#exCollapsingNavbar2>a,#exCollapsingNavbar2>ul>li>a { color: #F4FBA7 }
+
+@media screen and (max-width: 544px) {  
+	.collapsing ul li a, .in ul li a {color:#F4FBA7!important;}
+}
+.carousel-item>.row>.col-md-3>a { color: #F4FBA7;}
+#players h1 {color: #F4FBA7;}
+section#social .socialIcon i,#MemberShip .planIconA i,#MemberShip .planIconB i,
+#MemberShip .planIconC i,#modalMem .card-header{color:#F4FBA7; }
+
+.sqPlrs{ border-color: #F4FBA7 }
+#ulTables.nav-tabs .nav-link,#ulInfo.nav-tabs .nav-link{color: #F4FBA7;}
+#expandTable button,#expandInfo button{color: #F4FBA7;}
+.panel-title a {color: #F4FBA7;}
+#cellTitle h1 {color: #F4FBA7}
+.jumbotron,.custom-button-group,.pricing-table-holder,
+.pricing-feature-list,.buttonConfirm .btn-info,#Clubs .profile-info {color: #F4FBA7}
+.well.pricing-table:hover{box-shadow:0 0.5rem 0.5rem #F4FBA7;}
+
+#contactMem .card-footer input,#contactMem .card-footer button{color:#F4FBA7;}
+#formContact button {color:#F4FBA7;}
+footer {color:#F4FBA7;}
+footer a {color:#F4FBA7;}
+
+/*.color-secondary-1-2 { color: #C8D168 }*/
+h2.parallax,#vidgallery h1,#formContact h1  {color: #C8D168; }
+#society>h1,#Clubs .profile-info span,#Clubs-collapse .profile-info span{color: #C8D168;}
+#MemberShip .planIconC,#Clubs-collapse .planIconC{background-color: #C8D168;}
+#Clubs .profile-info i,#Clubs-collapse .profile-info i{color: #C8D168;}
+#Clubs .profile-card>img,#Clubs-collapse .profile-card>img{border: 0.2rem solid #C8D168} 
+#Clubs .profile-pic,#Clubs-collapse .profile-pic {border: 0.2rem solid #C8D168} 
+.no-gutter {  border: solid 0.2rem #C8D168;}
+
+/*.color-secondary-1-3 { color: #757D15 }*/
+#cBuilding,.icono img {border-color: #757D15}
+#MemberShip .planIconB {background-color: #757D15;}
+
+/*.color-secondary-1-4 { color: #4C5300 }*/
+section#social .socialIcon,#MemberShip .planIconA,
+#modalMem .card-header{background-color: #4C5300;}
+
+#contactMem .card{border: 0.2rem solid #4C5300}
+
+
+/* ------------- Main Secondary color  3/
+/*color-secondary-2-0 { color: #442F74 }*/
+@media screen and (min-width: 544px) {  
+	.navbar{background-color: #442F74!important;}
+}
+
+.copy-right-grids,.copy-right ul li a { color: #442F74;}
+
+body,#headImage,#players,#expandTable,#expandInfo,#tabTablesContainer,#tabInfoContainer
+,#parallax,#society,#vidgallery,#formContact{
+	background: #442F74;
+	background: -moz-radial-gradient(center, ellipse cover, #8A7BAF 0%, #442F74 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #8A7BAF 0%,#442F74 100%);
+	background: radial-gradient(ellipse at center, #8A7BAF 0%,#442F74 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(
+	 startColorstr='#8A7BAF', endColorstr='#442F74',GradientType=1 );
+}
+@media screen and (max-width: 544px) {  
+	.navbar{background-color: #442F74;}
+	.navbar-nav {background-color:rgba(68,47,116,0.8);}
+}
+
+.pricing-feature-list .list-group-item {border: 1px solid #442F74;}        
+#formContact span {color: #442F74;}
+
+/*.color-secondary-2-1 { color: #8A7BAF }*/
+.carousel-item { border-color: #8A7BAF;border-style: solid;border-width: 0.3rem;}
+#social{background-color:#8A7BAF}
+#ulTables.nav-tabs .nav-link,#ulInfo.nav-tabs .nav-link{background-color: #8A7BAF;}
+#championshipTab,#leagueTab,#Clubs,#MemberShip{background-color: #8A7BAF;}
+#tabTablesContainer .panel-group,#tabInfoContainer .panel-group {background-color: #8A7BAF;}
+
+/*.color-secondary-2-2 { color: #645092 }*/
+#ulTables.nav-tabs .nav-link:hover,#ulInfo.nav-tabs .nav-link:hover{background-color: #645092;}
+
+/*.color-secondary-2-3 { color: #2A1657 }*/
+#ulTables.nav-tabs .active,#ulInfo.nav-tabs .active{background-color:#2A1657;} 
+#expandTable button,#expandInfo button{background-color:#2A1657; }
+.panel-heading {background-color:#2A1657; }
+.pricing-feature-list,#MemberShip .jumbotron,#MemberShip-collapse .jumbotron,
+#modalMem .card-block,#modalMem .card-footer,#Clubs .profile-card{background-color:#2A1657; }
+#formContact button {background-color:#2A1657;}
+ 
+/*.color-secondary-2-4 { color: #16063A }*/
+.separador {background-color: #16063A;}
+section#social h2,section#social p {color:#16063A;}
+#championshipTab table th,#leagueTab table th  {color:#16063A;}
+.pricing-feature-list .list-group-item  {background-color:#16063A; }
+#formContact input,#formContact textarea {color:#16063A;}
+
+
+/*footer,html {background-color:#16063A;}*/
+
+footer {background-color:#16063A;}
+
+/*color------------------------------*/
+
+/*Small devices (landscape phones, 544px and up)*/
+
+@media screen and (max-width: 544px) {  
+	.navbar-brand { display:none; 	}
+	.navbar-nav {padding: 0 1rem 0 1rem; 
+	float: left; 	
+	margin-right: 1rem;  }
+	#headImage { height:30vmin; }
+	.caption   { height:30vmin; } 
+	.carousel-control {	font-size: 0.5rem;}	
+
+	section#social .socialIcon {
+		width:3rem;
+		height:3rem;
+		line-height: 3rem;
+		font-size: 1em;
+	}
+
+	.carousel-indicators li {
+		width:0.2rem;
+		height:0.2rem;
+	}
+
+	.carousel-indicators .active{
+		width:0.3rem;
+		height:0.3rem;
+	}
+
+	#players h1{font-size: 7px;	line-height: normal;}	
+	h2.parallax {line-height: 10rem;}
+	section#parallax { 	height: 10rem; }
+}
+
+
+@media screen and (min-width: 544px) {  
+	#headImage { height:40vmin; }
+	.caption   { height:40vmin; } 
+	.carousel-control {	font-size: 1rem;}
+	.sqPlrs{border-style: solid;border-width: 2px;border-color: white;
+	margin: 0.1rem 0.1rem 0.1rem 0.1rem;}
+
+	h2.parallax {line-height: 20rem;}
+	section#parallax { 	height: 20rem; }
+
+	.icono img { max-width: 8rem;}
+
+
+}
+
+@media screen and (max-width: 768px) { 
+	#tabTablesContainer,#tabInfoContainer{display:block;}
+	#expandTable,#expandInfo{display:none;  }
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media(max-width:767px) {
+	section#parallax {background-attachment: scroll;}
+}
+
+@media screen and (min-width: 768px) { 
+	#cellTitle h1 { font-size: 6rem; }
+	#headImage { height:60vmin; }
+	.caption   { height:60vmin; } 
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) { 
+	#headImage { height:80vmin; }
+	.caption   { height:80vmin; } 
+	h2.parallax {line-height: 30rem;}
+	section#parallax { 	height: 30rem; }
+
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) { 
+	#headImage { height:100vmin; }
+	.caption   { height:100vmin; } 
+}
+
+
+/*@media  (max-width:767px){.hidden-sm-down{display:none!important;}}*/

@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Bootstrap Football Template</title>
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <link rel="stylesheet" href="cssT/animate.min.css">
+        
+        <link rel="stylesheet" href="cssT/bootstrap.min.css">
+		
+		<link rel="stylesheet" href="cssT/mediumText.css">
+		<link  rel="stylesheet" href="cssT/football4.css">
+		
+        <link rel="stylesheet" href="cssT/font-awesome.min.css">
+
+        <script src="jsT/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Droid Sans', 'Droid Serif']
+    },
+	custom: {
+    	families: ['Exo-Bold'],
+    	urls: ['cssT/fonts.css']
+  	}
+
+
+  });
+</script>		
+
+
+    </head>
+
+  <body data-spy="scroll">
+
+	<nav class="navbar navbar-fixed-top">
+		<button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>
+
+	  	<div class="collapse navbar-toggleable-sm" id="exCollapsingNavbar2">
+	    	<img src="imgT/team/stemma.png" class="imgstemma hidden-sm-down"/>
+		    <a data-scroll class="navbar-brand textMedium" href="#">Football Team Name</a>
+
+		    <ul class="nav navbar-nav nav-justified">
+		      <li class="nav-item">
+		        <a data-scroll class="nav-link textMedium" href="#">Home</a>
+		      </li>
+		      <li class="nav-item">
+		        <a  data-scroll class="nav-link textMedium" href="#social">Social</a>
+		      </li>
+		      <li class="nav-item">
+		        <a  data-scroll class="nav-link textMedium" href="#players">Players</a>
+		      </li>
+		      <li class="nav-item">
+		        <a data-scroll class="nav-link textMedium" href="#society">Society</a>
+		      </li>
+		      <li class="nav-item">
+		        <a data-scroll class="nav-link textMedium" href="#expandTable">
+	      			Fixtures and League Table</a>
+		      </li>
+   		      <li class="nav-item">
+		        <a data-scroll class="nav-link textMedium" href="#parallax">Stadium</a>
+		      </li>
+			  <li class="nav-item">
+		        <a data-scroll class="nav-link textMedium" href="#expandInfo">MemberShip and Clubs</a>
+		      </li>
+		      <li class="nav-item">
+		        <a data-scroll class="nav-link textMedium" href="#vidgallery">Video</a>
+		      </li>
+		      <li class="nav-item">
+		        <a data-scroll class="nav-link textMedium" href="#formContact">Contact</a>
+		      </li>
+
+		    </ul>
+	  	</div>
+	</nav>
+
+	<section id="headImage"  >   		
+    	<img src="imgT/headImage.jpg" class="img-fluid"/>
+    	<div class="caption text-xs-center text-uppercase"  >     	  
+    		<div id="cellTitle" class="text-xs-center">        <!-- color-secondary-1 -->
+    		   <h1 class="animated zoomIn textxLarge">Win with us</h1> 
+    		</div>
+        </div>          
+    </section> <!-- /#headImage -->
+    
+	<section id="social" class="container-fluid">
+		<div class="row text-center">
+	        <div class="col-sm-4 col-xs-4">
+	            <div class="socialIcon anim01">
+	                <i class="fa fa-facebook"></i>	                
+	            </div>
+	            <h2 class="textxMedium">Facebook</h2>
+	            <div class="separador"></div>
+	            <p class="textRegular hidden-sm-down">Diventa nostro amico su Facebook. I post aggiornati dai nostri giocatori.</p>
+	        </div>
+	        <div class="col-sm-4 col-xs-4">
+	                <div class="socialIcon anim02">
+	                    <i class="fa fa-twitter"></i>
+	                </div>
+	                <h2 class="textxMedium">Twitter</h2>
+	                <div class="separador"></div>
+	                <p class="textRegular hidden-sm-down">Parla con noi delle tue sensazioni sull'ultima partita.</p>
+	        </div>
+	        <div class="col-sm-4 col-xs-4">
+	                <div class="socialIcon anim03">
+	                	<i class="fa fa-google-plus"></i>
+	                </div>
+	            <h2 class="textxMedium">Google Plus</h2>
+
+	            <div class="separador"></div>
+	            <p class="textRegular hidden-sm-down">Il sito gestito dai giocatori della squadra.</p>
+	        </div>
+	    </div>
+	</section>
+
+
+
+	<section id="players" class="container-fluid">
+		<!-- Carousel container -->
+		
+		<div id="playerspics" class="carousel slide row" data-ride="carousel">  
+			<h1 class="textLarge text-xs-center">First Football Team Players</h1>
+            <div id="sideSlide1" class="col-sm-1 col-xs-1"></div> 
+           
+			<div class="carousel-inner col-sm-10" role="listbox">           
+				
+				<a class="left carousel-control" href="#playerspics" data-slide="prev">
+				<i class="fa fa-chevron-left"></i></a>
+	            <a class="right carousel-control" href="#playerspics" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+
+				<!-- Slide 1 -->
+				<div class="carousel-item row active">					
+	                <div class="col-sm-2 col-xs-2">                			
+							<img class="img-fluid" src="imgT/team/stemma2.png" alt="stemma"/>		
+					</div>
+					<div class="col-sm-2 col-xs-2"> 	           			
+                    	<div class="sqPlrs">
+ 							<img class="img-fluid" src="imgT/players/buffon.jpg" alt="Buffon"/>	
+                    		<h1 class="textRegular">Buffon</h1>
+                    	</div>                    	
+                    </div>
+                    <div class="col-sm-2 col-xs-2">
+                    	<div class="sqPlrs"> 
+                    		<img class="img-fluid" src="imgT/players/cannavaro.jpg" alt="Cannavaro"/> 
+                    		<h1 class="textRegular">Cannavaro</h1>
+                    	</div>
+
+                    </div>
+                    <div class="col-sm-2 col-xs-2"> 
+                    	<div class="sqPlrs"> 
+                    		<img class="img-fluid" src="imgT/players/aquilani.jpg" alt="Aquilani"/> 
+                    		<h1 class="textRegular">Aquilani</h1>
+                    	</div>		
+                    </div>
+                    <div class="col-sm-2 col-xs-2"> 
+                    	<div class="sqPlrs"> 
+                    		<img class="img-fluid" src="imgT/players/cassano.jpg" alt="Cassano"/> 
+                    		<h1 class="textRegular">Cassano</h1>
+                    	</div>                    	
+                    </div>
+                    <div class="col-sm-2 col-xs-2"> 
+						<img class="img-fluid" src="imgT/team/stemma2.png" alt="stemma"/>			
+					</div>
+				</div>
+				<div class="carousel-item row">					
+	                <div class="col-sm-2 col-xs-2"> 
+						<img class="img-fluid" src="imgT/team/stemma2.png" alt="stemma"/>
+					</div>
+					<div class="col-sm-2 col-xs-2"> 
+                    	<div class="sqPlrs">
+                    		<img class="img-fluid" src="imgT/players/buffon.jpg" alt="Buffon"/>
+                    		<h1 class="textRegular">Buffon</h1>
+                    	</div>
+                    </div>
+                    <div class="col-sm-2 col-xs-2">
+                    	<div class="sqPlrs"> 
+                    		<img class="img-fluid" src="imgT/players/cannavaro.jpg" alt="Cannavaro"/> 
+                    		<h1 class="textRegular">Cannavaro</h1>
+                    	</div>
+                    </div>
+                    <div class="col-sm-2 col-xs-2"> 
+                    	<div class="sqPlrs"> 
+                    		<img class="img-fluid" src="imgT/players/aquilani.jpg" alt="Aquilani"/> 
+                    		<h1 class="textRegular">Aquilani</h1>
+                    	</div>		
+                    </div>
+                    <div class="col-sm-2 col-xs-2"> 
+                    	<div class="sqPlrs"> 
+                    		<img class="img-fluid" src="imgT/players/cassano.jpg" alt="Cassano"/> 
+                    		<h1 class="textRegular">Cassano</h1>
+                    	</div>
+                    </div>
+                    <div class="col-sm-2 col-xs-2"> 
+						<img class="img-fluid" src="imgT/team/stemma2.png" alt="stemma"/>
+					</div>
+				</div>
+
+				<div class="carousel-item row">					
+	                <div class="col-sm-2 col-xs-2"> 
+						<img class="img-fluid" src="imgT/team/stemma2.png" alt="stemma"/>
+					</div>
+					<div class="col-sm-2 col-xs-2"> 
+                    	<div class="sqPlrs">
+                    		<img class="img-fluid" src="imgT/players/buffon.jpg" alt="Buffon"/>
+                    		<h1 class="textRegular">Buffon</h1>
+                    	</div>
+                    </div>
+                    <div class="col-sm-2 col-xs-2">
+                    	<div class="sqPlrs"> 
+                    		<img class="img-fluid" src="imgT/players/cannavaro.jpg" alt="Cannavaro"/> 
+                    		<h1 class="textRegular">Cannavaro</h1>
+                    	</div>
+                    </div>
+                    <div class="col-sm-2 col-xs-2"> 
+                    	<div class="sqPlrs"> 
+                    		<img class="img-fluid" src="imgT/players/aquilani.jpg" alt="Aquilani"/> 
+                    		<h1 class="textRegular">Aquilani</h1>
+                    	</div>		
+                    </div>
+                    <div class="col-sm-2 col-xs-2"> 
+                    	<div class="sqPlrs"> 
+                    		<img class="img-fluid" src="imgT/players/cassano.jpg" alt="Cassano"/> 
+                    		<h1 class="textRegular">Cassano</h1>
+                    	</div>
+                    </div>
+                    <div class="col-sm-2 col-xs-2"> 
+						<img class="img-fluid" src="imgT/team/stemma2.png" alt="stemma"/>
+					</div>
+				</div>
+			</div> <!-- carousel-inner -->
+
+            <div id="sideSlide2" class="col-sm-1 col-xs-1"></div> 
+            <!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#playerspics" data-slide-to="0" class="active"></li>
+				<li data-target="#playerspics" data-slide-to="1"></li>
+				<li data-target="#playerspics" data-slide-to="2"></li>
+			</ol>
+		</div> <!-- playerspics -->
+		
+
+	</section> <!-- players -->
+
+	<section id="society" class="container-fluid">
+		<h1 class="text-xs-center textLarge">The Society</h1>
+        <div class="separador"></div>
+
+        <div class="container-fluid ">
+			<div class="row">
+		 		<section id="leftMembers" class="col-md-4 col-sm-6">
+					<div class="row">
+						<div class="col-md-8 col-sm-6">
+							<h2 class="textxMedium text-sm-left text-md-right">Honorary President</h2>
+							<p class="textRegular text-sm-left text-md-right">George Bartolene</p>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="icono anima1">
+	                    		<img class="img-fluid" src="imgT/team/honorarypresident.jpg" alt="honorary president"/> 								
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-sm-6">
+							<h2 class="textxMedium text-sm-left text-md-right">President</h2>
+							<p class="textRegular text-sm-left text-md-right">Alexander Brown</p>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="icono anima1">
+	                    		<img class="img-fluid" src="imgT/team/president.jpg" alt="president"/> 								
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-sm-6">
+							<h2 class="textxMedium text-sm-left text-md-right">Vice President</h2>
+							<p class="textRegular text-sm-left text-md-right">Simon Campagny</p>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="icono anima1">
+	                    		<img class="img-fluid" src="imgT/team/vice.jpg" alt="vice president"/> 								
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-8 col-sm-6">
+							<h2 class="textxMedium text-sm-left text-md-right">Club Manager</h2>
+							<p class="textRegular text-sm-left text-md-right">Samuel Gaspard</p>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="icono anima1">
+	                    		<img class="img-fluid" src="imgT/team/club.jpg" alt="Club Manager"/> 								
+							</div>
+						</div>
+					</div>
+		 		</section>
+		 		
+				<section id="building" class="col-md-4 col-sm-6 hidden-sm-down">
+					<img id="cBuilding" src="imgT/center.jpeg" class="img-fluid">
+					<p class="textMedium text-xs-center">11 Lollypop Street Bigtown BG234YZ England</p>
+				</section> 	
+
+		 		<section id="rightMembers" class="col-md-4 col-sm-6">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">					
+							<div class="icono anima2">
+	                    		<img class="img-fluid" src="imgT/team/gsec.jpg" alt="general secretary"/> 								
+							</div>
+						</div>	
+							<div class="col-md-8 col-sm-6">
+								<h2 class="textxMedium text-xs-right text-sm-left">General Secretary</h2>
+								<p class="textRegular text-xs-right text-sm-left">Linda Barone</p>
+							</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6">					
+							<div class="icono anima2">
+	                    		<img class="img-fluid" src="imgT/team/dct.jpg" alt="doctor"/> 								
+							</div>
+						</div>	
+							<div class="col-md-8 col-sm-6">
+								<h2 class="textxMedium text-xs-right text-sm-left">Doctor</h2>
+								<p class="textRegular text-xs-right text-sm-left">Susan Reynolds</p>
+							</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6">					
+							<div class="icono anima2">
+	                    		<img class="img-fluid" src="imgT/team/sd.jpg" alt="Sporting director"/> 								
+							</div>
+						</div>	
+							<div class="col-md-8 col-sm-6">
+								<h2 class="textxMedium text-xs-right text-sm-left">Sporting Director</h2>
+								<p class="textRegular text-xs-right text-sm-left">Matthew Lo Bruno</p>
+							</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6">					
+							<div class="icono anima2">
+	                    		<img class="img-fluid" src="imgT/team/tm.jpg" alt="Team Manager"/> 								
+							</div>
+						</div>	
+							<div class="col-md-8 col-sm-6">
+								<h2 class="textxMedium text-xs-right text-sm-left">Team Manager</h2>
+								<p class="textRegular text-xs-right text-sm-left">George Panter</p>
+							</div>
+					</div>
+		 		</section>
+		 	</div> <!-- row -->	
+		</div> <!-- container -->
+	</section> 
+
+	<section id="expandTable" class="container-fluid">
+	  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tabTablesContainer" aria-expanded="false" aria-controls="collapseExample">
+	      Fixtures and League Table Season 
+	  </button>		
+	</section>
+
+	<section id="tabTablesContainer" class="container-fluid collapse">
+		<div id="sidetab1" class="col-sm-1"></div> 
+		<div class="col-sm-10 col-xs-12">
+		    <ul id="ulTables" class="nav nav-tabs">
+		        <li class="nav-item">
+		        	<a href="#championshipTab" class="textMedium nav-link active" role="tab" data-toggle="tab">Fixtures</a>
+		        </li>
+		        <li class="nav-item">
+	        		<a href="#leagueTab" class="textMedium nav-link" 
+	        		role="tab" data-toggle="tab">League Table Season 20xx/yy</a>	        	
+		        </li>
+	     	</ul>
+	     	<div class="tab-content">
+			    <div  role="tabpanel" class="tab-pane fade in active" id="championshipTab">
+					<table class="table table-hover table-bordered">			    	
+				        <thead>
+				            <tr>
+				                <th class="textSmall text-xs-center">Number</th>
+				                <th class="textSmall text-xs-center">Date</th>
+				                <th class="textSmall text-xs-center">Match Hour</th>
+				                <th class="textSmall text-xs-center">First Team</th>
+				                <th class="textSmall text-xs-center">Second Team</th>		
+				            </tr>
+				        </thead>
+				        <tbody>
+				            <tr>
+				                <td class="textSmall text-xs-center">1</td>
+				                <td class="textSmall text-xs-center">05/08/2016</td>
+				                <td class="textSmall text-xs-center">19:45</td>
+				                <td class="textSmall text-xs-center">
+				                	<img  src="imgT/team/stemma2.png" alt="stemma"/>
+				                	<span class="color-secondary-1-1">Fulham</span></td>
+				                <td class="textSmall text-xs-center">Newcastle United</td>
+				            </tr>  
+				            <tr>
+				                <td class="textSmall text-xs-center">1</td>
+				                <td class="textSmall text-xs-center">05/08/2016</td>
+				                <td class="textSmall text-xs-center">19:45</td>
+				                <td class="textSmall text-xs-center">xxx</td>
+				                <td class="textSmall text-xs-center">
+				                	<img  src="imgT/team/stemma2.png" alt="stemma"/>
+				                	<span class="color-secondary-1-1">Fulham</span></td>			     
+				                </tr>  
+				        </tbody>
+				    </table>
+				</div>	<!-- fixture table --> 		    
+			    <div  role="tabpanel" class="tab-pane fade" id="leagueTab">
+			    	  <table class="table table-hover table-bordered">
+				        <thead>
+				            <tr>
+				                <th class="textSmall text-xs-center">Position</th>
+				                <th class="textSmall text-xs-center">Club</th>
+				                <th class="textSmall text-xs-center ">Played</th>
+
+				                
+				                <th class="textSmall text-xs-center">Won</th>
+								<th class="textSmall text-xs-center">Drawn</th>
+
+								<th class="textSmall text-xs-center">Lost</th>								
+								<th class="textSmall text-xs-center hidden-sm-down">GF</th>
+								<th class="textSmall text-xs-center hidden-sm-down">GA</th>
+								<th class="textSmall text-xs-center hidden-sm-down">GD</th>
+								
+								<th class="textSmall text-xs-center">Points</th>
+								<th class="textSmall text-xs-center hidden-sm-down">Form</th>
+								<th class="textSmall text-xs-center hidden-sm-down">Next</th>
+				            </tr>
+				        </thead>
+				        <tbody>
+				            <tr>
+
+								<td class="textSmall text-xs-center">Position</td>
+				                <td class="textSmall text-xs-center">Club</td>
+				                <td class="textSmall text-xs-center">Played</td>
+
+				                
+				                <td class="textSmall text-xs-center">Won</td>
+								<td class="textSmall text-xs-center">Drawn</td>
+
+								<td class="textSmall text-xs-center">Lost</td>
+								
+								<td class="textSmall text-xs-center hidden-sm-down">Lost</td>
+								<td class="textSmall text-xs-center hidden-sm-down">Lost</td>
+								<td class="textSmall text-xs-center hidden-sm-down">Lost</td>	
+								
+								<td class="textSmall text-xs-center">Points</td>
+								<td class="textSmall text-xs-center hidden-sm-down">Form</td>
+								<td class="textSmall text-xs-center hidden-sm-down">Next</td>
+
+				            </tr>  
+				            <tr>  
+				            </tr>  
+				            <tr>  
+				            </tr>
+				        </tbody>
+				    </table>		
+					    
+			    </div> <!-- leagueTable -->
+
+		    </div> <!-- tab-content -->
+		</div>
+		<div id="sideTab2" class="col-sm-1"></div> 
+
+	</section> <!-- tabTablesContainer -->
+
+	<section id="parallax">
+		<h2 class="parallax text-xs-center textHuge">OUR STADIUM</h2>		
+	</section>	
+
+	<section id="expandInfo" class="container-fluid">
+	  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tabInfoContainer" aria-expanded="false" aria-controls="collapseExample">
+	      MemberShip Cards and Clubs 
+	  </button>		
+	</section>
+
+	<section id="tabInfoContainer" class="container-fluid collapse">
+		<div id="sideIn1" class="col-sm-1"></div> 
+		<div class="col-sm-10 col-xs-12">
+		    <ul id="ulInfo" class="nav nav-tabs">
+		        <li class="nav-item">
+		        	<a href="#Clubs" class="textMedium nav-link active" role="tab" data-toggle="tab">Clubs</a>
+		        </li>
+		        <li class="nav-item">		        	
+		        		<a href="#MemberShip" class="textMedium nav-link" 
+		        		role="tab" data-toggle="tab">MemberShip Cards</a>	        	
+		        </li>
+	     	</ul>
+
+	     	<div class="tab-content">
+				<div  role="tabpanel" class="tab-pane fade in active" id="Clubs">
+					<div class="container-fluid row masonry-container">
+					    <div class="col-xs-12 col-sm-4 col-md-4 item">
+				          	<div class="profile-card text-center">
+					            <img class="img-fluid" src="imgT/sedi/sede01l.jpeg">
+					            <div class="profile-info">
+
+					              <img class="profile-pic" src="imgT/sedi/pres1.jpeg">
+
+					              <h2 class="hvr-underline-from-center text-xs-left textxMedium">Name Club<span>President / Manger Name Surname </span></h2>
+					              <div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+					              <p class="text-xs-center"><a href="mailto:x_y_z@live.co.uk"><i class="fa fa-envelope-o fa-2x"></i></a></p>
+					            </div>
+				        	</div>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-4 item">
+  			  		        <div class="profile-card text-center">
+
+				    	        <img class="img-fluid" src="imgT/sedi/sede02l.jpeg">
+				        	    <div class="profile-info">
+				              		<img class="profile-pic" src="imgT/sedi/pres2l.jpeg">
+				              		<h2 class="hvr-underline-from-center text-xs-left textxMedium">Name Club<span>President / Manger Name Surname</span></h2>
+				              		<div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+				              		<p class="text-xs-center"><a href="mailto:x_y_z@live.co.uk"><i class="fa fa-envelope-o fa-2x"></i></a></p>				
+				            	</div>
+				          	</div>
+					    </div>
+
+						<div class="col-xs-12 col-sm-4 col-md-4 item">
+				            <div class="profile-card text-center">
+				            	<img class="img-fluid" src="imgT/sedi/sede03l.jpeg">
+				            	<div class="profile-info">
+				              		<img class="profile-pic" src="imgT/sedi/pres3.jpeg">
+				              		<h2 class="hvr-underline-from-center text-xs-left textxMedium">Name Club<span>President / Manger Name Surname</span></h2>
+				              		<div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+				              		<p class="text-xs-center"><a href="mailto:x_y_z@live.co.uk"><i class="fa fa-envelope-o fa-2x"></i></a></p>
+				        		</div>
+	                      	</div>
+					    </div>
+
+
+						<div class="col-xs-12 col-sm-4 col-md-4 item">
+				            <div class="profile-card text-center">
+				            	<img class="img-fluid" src="imgT/sedi/sede04l.jpeg">
+				            	<div class="profile-info">
+				              		<img class="profile-pic" src="imgT/sedi/pres4.jpg">
+				              		<h2 class="hvr-underline-from-center text-xs-left textxMedium">Name Club<span>President / Manger Name Surname</span></h2>
+				              		<div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing 4 elit.</div>
+				              		<p class="text-xs-center"><a href="mailto:x_y_z@live.co.uk"><i class="fa fa-envelope-o fa-2x"></i></a></p>
+				        		</div>
+	                      	</div>
+					    </div>
+
+						<div class="col-xs-12 col-sm-4 col-md-4 item">
+				            <div class="profile-card text-center">
+				            	<img class="img-fluid" src="imgT/sedi/sede05l.jpeg">
+				            	<div class="profile-info">
+				              		<img class="profile-pic" src="imgT/sedi/pres5l.jpg">
+				              		<h2 class="hvr-underline-from-center text-xs-left textxMedium">Name Club<span>President / Manger Name Surname</span></h2>
+				              		<div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing 5 elit.</div>
+				              		<p class="text-xs-center"><a href="mailto:x_y_z@live.co.uk"><i class="fa fa-envelope-o fa-2x"></i></a></p>
+				        		</div>
+	                      	</div>
+					    </div>
+
+						<div class="col-xs-12 col-sm-4 col-md-4 item">
+				            <div class="profile-card text-center">
+				            	<img class="img-fluid" src="imgT/sedi/sede06l.jpeg">
+				            	<div class="profile-info">
+				              		<img class="profile-pic" src="imgT/sedi/pres6.jpg">
+				              		<h2 class="hvr-underline-from-center text-xs-left textxMedium">Name Club<span>President / Manger Name Surname</span></h2>
+				              		<div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing 6 elit.</div>
+				              		<p class="text-xs-center"><a href="mailto:x_y_z@live.co.uk"><i class="fa fa-envelope-o fa-2x"></i></a></p>
+				        		</div>
+	                      	</div>
+					    </div>
+
+					<!-- </div> --></div> <!-- wrapper container -->
+				</div> <!-- clubs tab -->
+
+				<div  role="tabpanel" class="tab-pane fade" id="MemberShip">	
+					<div class="jumbotron">
+        				<div class="container text-xs-center">
+             				<h1 class="textxLarge">PRICING PLANS</h1>
+        					<p class="textxMedium">choose from our simple and clear plans</p>
+        				</div>
+					</div>
+
+					<div class="container-fluid">
+	    				<div class="row">	      
+	        				<div class="col-md-4 well pricing-table">
+		            			<div class="pricing-table-holder">
+		                			<div class="text-xs-center">
+
+										<div class="planIconA">
+	                						<i class="fa fa-user" aria-hidden="true"></i>                
+	            						</div>
+		                      			<h3 class="textxMedium">PLAN A</h3>
+		                    			<p class="textRegular">Simple Personal Plan.</p>
+		                			</div>	               
+		            			</div>
+		            
+	            				<div class="custom-button-group text-xs-center" >	 
+									<p class="textRegular">Options MemberShip.</p>	
+	            				</div>
+	            
+	            				<div class="pricing-feature-list">
+	                				<ul class="list-group">
+	                					<li class="list-group-item">Membership scheme for fans aged.
+	                					<i class="fa fa-check" aria-hidden="true"></i></li>
+                      					<li class="list-group-item">Priority ticket access.
+                      					<i class="fa fa-check" aria-hidden="true"></i></li>
+                      					<li class="list-group-item">Full access to our online video service.<i class="fa fa-times" aria-hidden="true"></i></li>
+                      					<li class="list-group-item"> Fitness Journal archived digitally.
+                      					<i class="fa fa-times" aria-hidden="true"></i></li>
+                      					<li class="list-group-item"> Fitness Journal in print.
+                      					<i class="fa fa-times" aria-hidden="true"></i></li>
+                    				</ul>
+	            				</div>
+	            
+	            				<div class="buttonConfirm">	            				
+	            					<button type="button" class="btn-info btn-block" data-plan="Plan A">
+	            						GET NOW</button>
+	            				</div>
+	        				</div>  <!-- first card -->
+
+
+							<div class="col-md-4 well pricing-table">
+		            			<div class="pricing-table-holder">
+		                			<div class="text-xs-center">
+
+										<div class="planIconB">
+	                						<i class="fa fa-user" aria-hidden="true"></i>                
+	            						</div>
+		                      			<h3 class="textxMedium">PLAN B</h3>
+		                    			<p class="textRegular">Simple Personal Home Plan.</p>
+		                			</div>	               
+		            			</div>
+		            
+	            				<div class="custom-button-group text-xs-center" >	 
+									<p class="textRegular">Options MemberShip.</p>	
+	            				</div>
+	            
+	            				<div class="pricing-feature-list">
+	                				<ul class="list-group">
+										<li class="list-group-item">Membership scheme for fans aged.
+	                					<i class="fa fa-check" aria-hidden="true"></i></li>
+                      					<li class="list-group-item">Priority ticket access.
+                      					<i class="fa fa-check" aria-hidden="true"></i></li>
+                      					<li class="list-group-item">Full access to our online video service.<i class="fa fa-check" aria-hidden="true"></i></li>
+                      					<li class="list-group-item"> Fitness Journal archived digitally.
+                      					<i class="fa fa-times" aria-hidden="true"></i></li>
+                      					<li class="list-group-item"> Fitness Journal in print.
+                      					<i class="fa fa-times" aria-hidden="true"></i></i></li>
+
+                    				</ul>
+	            				</div>
+	            
+	            				<div class="buttonConfirm">
+	            					<button class="btn-info btn-block" data-plan="Plan B">GET NOW</button>
+	            				</div>
+	        				</div>  <!-- second card -->
+
+							<div class="col-md-4 well pricing-table">
+		            			<div class="pricing-table-holder">
+		                			<div class="text-xs-center">
+
+										<div class="planIconC">
+	                						<i class="fa fa-user" aria-hidden="true"></i>                
+	            						</div>
+		                      			<h3 class="textxMedium">PLAN C</h3>
+		                    			<p class="textRegular">Full Options Plan.</p>
+		                			</div>	               
+		            			</div>
+		            
+	            				<div class="custom-button-group text-xs-center" >	 
+									<p class="textRegular">Options MemberShip.</p>	
+	            				</div>
+	            
+	            				<div class="pricing-feature-list">
+	                				<ul class="list-group">
+										<li class="list-group-item">Membership scheme for fans aged.
+	                					<i class="fa fa-check" aria-hidden="true"></i></li>
+                      					<li class="list-group-item">Priority ticket access.
+                      					<i class="fa fa-check" aria-hidden="true"></i></li>
+                      					<li class="list-group-item">Full access to our online video service.<i class="fa fa-check" aria-hidden="true"></i></li>
+                      					<li class="list-group-item"> Fitness Journal archived digitally.
+                      					<i class="fa fa-check" aria-hidden="true"></i></li>
+                      					<li class="list-group-item"> Fitness Journal in print.
+                      					<i class="fa fa-check" aria-hidden="true"></i></li>
+
+                    				</ul>
+	            				</div>
+	            
+	            				<div class="buttonConfirm">
+	            					<button class="btn-info btn-block" data-plan="Plan C">GET NOW</button>
+	            				</div>
+	        				</div>  <!-- third card -->
+ 						</div> <!-- row -->
+	    			</div> <!-- container -->
+				</div>	<!-- MemberShip tab -->			
+	     	</div> <!-- tab-content -->
+		</div>
+		<div id="sideIn2" class="col-sm-1"></div> 
+	</section> <!-- tabTablesContainer -->
+
+ <!-- save not touch Modals players,membership  -->
+
+    <section id="modalPlayer">
+ 		<div class="modal hide" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="			modalLabelLarge" aria-hidden="true">
+	 		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+
+		    	<div class="modal-header">
+		        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">×</span>
+					</button>
+		        	<h3></h3>
+			    </div>
+			        <div class="modal-body">
+			        <div class="row-fluid">
+			            <div class="span10 offset1">
+			                <div id="modalTab">
+			                    <div class="tab-content">
+			                        <div class="tab-pane active" id="about">
+    									<img src="" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+      									<h3 class="media-heading">name <small>nation</small></h3>
+                						<span><strong>Role: </strong></span>                						
+    									<hr>
+    									<center>
+    									<p class="text-left"><strong>Bio: </strong><br></p>
+      									<br>
+      									</center>
+      								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+			</div></div>		
+		</div>
+    </section> 
+
+    <!-- modal membership -->
+	<section id="modalMem">		
+        <div class="modal fade" id="contactMem" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="card">
+                    <div class="card-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="panel-title textxLarge"><img src="imgT/team/stemma.png" class="imgstemma"/></h4>
+                    </div>
+                    <div class="card-block">
+	                    <form action="#" method="post" accept-charset="utf-8">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6" >
+                                    <input class="form-control" name="firstname" placeholder="Firstname" type="text" required autofocus />
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input class="form-control" name="lastname" placeholder="Lastname" type="text" required />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <input class="form-control" name="email" placeholder="E-mail" type="text" required />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <input class="form-control" name="subject" placeholder="Subject" type="text" required />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <textarea style="resize:vertical;" class="form-control" placeholder="Message..." rows="6" name="comment" required></textarea>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-success" value="Send"/>
+                                <!--<span class="glyphicon glyphicon-ok"></span>-->
+                            <input type="reset" class="btn btn-danger" value="Clear" />
+                                <!--<span class="glyphicon glyphicon-remove"></span>-->
+                            <button style="float: right;" type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</section>
+
+	<section id="vidgallery">
+		<div class="container-fluid">
+	  		<div class="row">
+	    		<h1 class="text-xs-center textLarge">Our Video</h1>
+	    		<div class="separador"></div>
+		    </div>
+		    
+		    <div class="row">
+		      
+		      <div class="col-sm-3 no-gutter">
+		        <div class="embed-responsive embed-responsive-16by9">
+		          <iframe  src="https://www.youtube.com/embed/m3iT5YuvcSY" allowfullscreen></iframe>
+		        </div>
+		      </div>
+
+		      <div class="col-sm-3 no-gutter">
+		        <div class="embed-responsive embed-responsive-16by9">
+		          <iframe  src="https://www.youtube.com/embed/SFmIkLorRmE"  allowfullscreen></iframe>
+		        </div>
+		      </div>
+		      
+		      <div class="col-sm-3 no-gutter">
+		        <div class="embed-responsive embed-responsive-16by9">
+		          <iframe  src="https://www.youtube.com/embed/mAo7TrQ0aXw" allowfullscreen></iframe>
+		        </div>
+		      </div>
+		      
+		      <div class="col-sm-3 no-gutter">
+		        <div class="embed-responsive embed-responsive-16by9">
+		          <iframe  src="https://www.youtube.com/embed/kHXfHFNlJ_w" allowfullscreen></iframe>
+		        </div>
+		      </div>
+		      
+		    </div>
+
+	   	    <div class="row">
+				<div class="col-sm-3 no-gutter">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe src="https://www.youtube.com/embed/T-oJCNiiLCQ" 
+						allowfullscreen></iframe>					
+					</div>
+				</div>
+				<div class="col-sm-3 no-gutter">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe  src="https://www.youtube.com/embed/z2PJnLgOPyo" allowfullscreen></iframe>
+					</div>
+				</div>		      
+				<div class="col-sm-3 no-gutter">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe   src="https://www.youtube.com/embed/Gu-HGnBlKXM"   allowfullscreen></iframe>
+					</div>
+				</div>		      
+				<div class="col-sm-3 no-gutter">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe  src="https://www.dailymotion.com/embed/video/x4u2g65" allowfullscreen></iframe>
+					</div>
+				</div>	      
+		    </div>
+		    
+		    <div class="row">		      
+				<div class="col-sm-3 no-gutter">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe  src="https://www.youtube.com/embed/qbo6wIz-fYI" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-sm-3 no-gutter">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe src="https://www.youtube.com/embed/i-gXs7Qt31g"  allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-sm-3 no-gutter">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe   src="https://www.dailymotion.com/embed/video/x4tubty" allowfullscreen></iframe> 
+					</div>
+				</div>
+				<div class="col-sm-3 no-gutter">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe   src="https://www.dailymotion.com/embed/video/x4uei1k" allowfullscreen></iframe>
+					</div>
+				</div>		      
+		    </div>
+		    
+	    </div>
+	</section> <!-- vidgallery -->
+
+<!-- save not touch end -->
+
+	<section id="formContact">
+		<div class="container-fluid">
+			<div class="col-xs-1"></div>
+			<div class="col-xs-10">
+				<div class="form-area">  
+					<form role="form">						
+						<h1 class="text-xs-center textLarge">Contact Form</h1>
+						<div class="separador"></div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="500" rows="7"></textarea>
+							<span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
+						</div>
+
+						<button type="button" id="submit" name="submit" class="btn  pull-right">Submit Form</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-xs-1"></div>
+		</div> <!-- container -->
+	</section>
+
+	<!-- footer -->
+
+	<footer>		
+		<div class="container-fluid">
+			<div class="footer-grids row">
+
+				<div class="footer one col-sm-6">
+					<h3 class="textMedium">More About Company</h3>
+					<p class="textRegular"> All contents protected by copyright laws.</p>
+					<p class="adam textRegular">- Created by Addo Pecile</p>
+					
+				</div>
+
+
+				<div class="footer two col-sm-3">
+					<h3 class="textMedium">Keep Connected</h3>
+					<ul>
+						<li><a class="textRegular" href="#"><i class="fa fa-facebook"></i>Like us on Facebook</a></li>
+						<li><a class="textRegular" href="#"><i class="fa fa-twitter"></i>Follow us on Twitter</a></li>
+						<li><a class="textRegular" href="#"><i class="fa fa-google-plus"></i>Add us on Google Plus</a></li>						
+					</ul>
+				</div>
+				<div class="footer three col-sm-3">
+					<h3 class="textMedium">Contact Information</h3>
+					<ul class="textRegular">
+						<li><i class="fa fa-home" aria-hidden="true"></i>
+							The company name <span>Lorem ipsum dolor,</span>Glasglow Dr 40 Fe 72.
+						</li>
+						<li><i class="fa fa-mobile" aria-hidden="true"></i>
+							1234567890  </li>
+						<li><i class="fa fa-envelope-o" aria-hidden="true"></i>
+							<a href="mailto:info@example.com">contact@example.com</a> 
+						</li>
+					</ul>
+				</div>			
+			</div>
+
+			<div class="copy-right-grids row">
+
+				<div class="copy-left">
+					<p class="footer-gd textMini">© 2016 Football Template Website. All Rights Reserved | Design by <a href="https://webCompany.com/" target="_blank">WebCompany</a></p>			
+				</div>
+
+				<div class="copy-right">
+					<ul>
+						<li class="textMini"><a href="#">Company Information</a></li>
+						<li class="textMini"><a href="#">Privacy Policy</a></li>
+						<li class="textMini"><a href="#">Terms & Conditions</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+		</div>
+	</footer>
+	
+<!-- script -->
+
+    <script src="jsT/jquery-3.1.0.min.js"></script>
+    <script src="jsT/bootstrap.min.js"></script>
+
+    <script src="jsT/smooth-scroll.min.js"></script>
+    <script src="jsT/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="jsT/bootstrap-tabcollapse.js"></script>
+
+    <script type="text/javascript" src="jsT/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="jsT/masonry.pkgd.min.js"></script>
+    <script src="jsT/football4.js"></script>
+	
+</body></html>

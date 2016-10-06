@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'PTSansWebBold';
+    src: url('../fonts/PT_Sans/PT_Sans-Web-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'PTSansWebBold';
+    src: url('../fonts/PT_Sans/PT_Sans-Web-Bold.ttf');
+}
+
+
+@font-face {
+    font-family: 'PTSansWebRegular';
+    src: url('../fonts/PT_Sans/PT_Sans-Web-Regular.ttf');
+    /*font-weight: bold;*/
+}
+
+@font-face {
+    font-family: 'Exo-Bold';
+    src: url('../fonts/Exo/Exo-Bold.ttf');    
+}
+
+@font-face {
+    font-family: 'Exo-ExtraBoldItalic';
+    src: url('../fonts/Exo/Exo-ExtraBoldItalic.ttf');    
+}
+
+@font-face {
+    font-family: 'Exo-ExtraBold';
+    src: url('../fonts/Exo/Exo-ExtraBold.ttf');    
+}
+
+
+
+
+
+
+
